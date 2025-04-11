@@ -5,25 +5,25 @@
   direction: GZ_TO_ROS
 
 - ros_topic_name: "/joint_states"
-  gz_topic_name: "/world/empty/model/agr_robot/joint_state"
+  gz_topic_name: "/world/empty/model/masterplow_bot/joint_state"
   ros_type_name: "sensor_msgs/msg/JointState"
   gz_type_name: "ignition.msgs.Model"
   direction: GZ_TO_ROS
 
 - ros_topic_name: "/tf"
-  gz_topic_name: "/model/agr_robot/tf"
+  gz_topic_name: "/model/masterplow_bot/tf"
   ros_type_name: "tf2_msgs/msg/TFMessage"
   gz_type_name: "ignition.msgs.Pose_V"
   direction:  GZ_TO_ROS 
 
 - ros_topic_name: "/odometry"
-  gz_topic_name: "/model/agr_robot/odometry"
+  gz_topic_name: "/model/masterplow_bot/odometry"
   ros_type_name: "nav_msgs/msg/Odometry"
   gz_type_name: "ignition.msgs.Odometry"
   direction:  GZ_TO_ROS 
 
 - ros_topic_name: "/cmd_vel"
-  gz_topic_name: "/model/agr_robot/cmd_vel"
+  gz_topic_name: "/model/masterplow_bot/cmd_vel"
   ros_type_name: "geometry_msgs/msg/Twist"
   gz_type_name: "ignition.msgs.Twist"
   direction:  ROS_TO_GZ 
